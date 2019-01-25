@@ -17,8 +17,7 @@
  -T:调用simpledb的方法的参数的类型，例如：Int32、Double、byte等  
  -D:参数的值
    
-- object(String和byte[]，只支持这两个)
-   
+- object(String和byte[]，只支持这两个)   
  -T:调用simpledb的方法的参数的类型，例如：String和byte[]  
  -L:后面参数值的长度
  -D:参数的值，字节数组byte[] 
