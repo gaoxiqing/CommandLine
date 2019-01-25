@@ -9,14 +9,14 @@
   M:simpledb的方法，例如delete、put、get等  
   L:后面command的总长度  
   
-  #Command#  
-  
+  ##Command##  
+  Command是调用simpledb的参数集合（方法名是消息头的“M”），参数类型分成基本类型和object类型
   #基本类型  
 -
    T:调用simpledb的方法的参数的类型，例如：Int32、Double、byte等  
    D:参数的值
    
-   #object(String和byte[])
+   #object(String和byte[]，只支持这两个)
 _  
    T:调用simpledb的方法的参数的类型，例如：String和byte[]  
    L:后面参数值的长度
